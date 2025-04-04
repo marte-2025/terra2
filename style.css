@@ -21,3 +21,22 @@ html {
 .titolo2 {
   color: azure;
 }
+nav {
+  background-color: antiquewhite;
+
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: rgb(169, 193, 80);
+}
